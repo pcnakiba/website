@@ -25,14 +25,19 @@ div {
 
 #nav {
   list-style: none;
+  overflow: hidden;/*まわりこみ回避用のおまじない*/
 } 
 #nav li {
   width: 140px;
   text-align: center;
-  background-color: #333;
+  background-color: #333; /*背景は灰色*/
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;/*くぎり線*/
 }
 #nav li a {
   text-decoration: none;
-  color: #fff;
+  color: #fff;/*文字は白*/
   font-weight: bold;
 }
