@@ -6,7 +6,6 @@ body {
 }
 
 /*****HEADER*****/
-
 header{
     display: block;
     width:60%;
@@ -42,23 +41,35 @@ h1 {
     padding-left: 3%; /*文字の左側に余白をあける*/
 }
 
-#nav {
-  list-style: none;
-  overflow: hidden;/*まわりこみ回避用のおまじない*/
-} 
-#nav li {
-  width: 140px;
-  text-align: center;
-  background-color: #333; /*背景は灰色*/
-  float: left;
-  height: 50px;
-  line-height: 50px;
-  margin-right: 2px;/*くぎり線*/
+nav{
+    width: 100%;    /*横幅の指定*/
+    border-top: 1px solid orange;   /*上部の線の色を指定*/
+    border-bottom: 1px solid orange;    /*下部の線の色を指定*/
+    margin-bottom: 5px; 
+    overflow: hidden;   /*おまじない*/
 }
-#nav li a {
-  text-decoration: none;
-  color: #fff;/*文字は白*/
-  font-weight: bold;
+nav ul{
+    width: 60%; /*横幅の指定*/
+    margin-left: 20%;   /*左端から20%右側に動かす*/
+}
+nav li{
+}
+nav li:last-child{
+    border-right: 1px solid orange; /*li要素の最後の物は右側に線を描く*/
+}
+nav a{
+    display: block; /*1つのli全体にリンクを有効にする*/
+    text-decoration: none;  /*ブラウザ標準のリンク装飾をオフに*/
+    color:#313131;  /*文字色の変更*/
+    font-size: 110%;    /*フォントサイズの指定*/
+    letter-spacing: 5px;    /*文字と文字の間隔をあける*/
+    font-weight: 400;   /*文字の太さを調整*/
+    line-height: 45px;  /*行間の指定（ナビボタンの高さ指定）*/
+}
+nav a:hover{
+    background-color: orange;   /*背景色の指定*/
+    color: #fff;    /*文字色の変更*/
+    transition: 0.5s;   /*ホバー時の動きをなめらかにする*/
 }
 
 /****FOOTER****/
