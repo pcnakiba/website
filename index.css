@@ -44,24 +44,6 @@ h1 {
 }
 
 nav{
-    width: 100%;    /*横幅の指定*/
-    border-top: 1px solid orange;   /*上部の線の色を指定*/
-    border-bottom: 1px solid orange;    /*下部の線の色を指定*/
-    margin-bottom: 5px; 
-  
-    overflow: hidden;   /*おまじない*/
-}
-nav ul{
-    width: 60%; /*横幅の指定*/
-    margin-left: 20%;   /*左端から20%右側に動かす*/
-}
-nav li{
-}
-nav li:last-child{
-    border-right: 1px solid orange; /*li要素の最後の物は右側に線を描く*/
-}
-CSS
-nav{
 border-bottom: 1px solid #ccc;
 }
 nav ul{
