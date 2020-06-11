@@ -21,8 +21,9 @@ header{
 #branding p{
     color: #008080;/*文字色の変更*/
     font-size: 120%; /*フォントサイズの調整*/
-    padding-left: 3%; /*文字の左側に余白をあける*/
-    letter-spacing: 10px;                         /*文字と文字の間隔をあける*/ 
+    /*padding-left: 3%; /*文字の左側に余白をあける*/
+    text-align: center;/*中央揃え*/
+    letter-spacing: 5px;                         /*文字と文字の間隔をあける*/ 
 }
 
 /*****NAV*****/
