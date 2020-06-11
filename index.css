@@ -16,10 +16,6 @@ header{
 /*****BRANDING*****/
 #branding{ 
     margin-left: 20%;/*左端から20%右側に動かす*/
-    background-image:url(https://pcnakiba.github.io/website/Ichigojam.png
-);          /* 画像のURLを指定       */
-    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */   
-    background-size: cover;
 }
   
 #branding p{
