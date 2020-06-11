@@ -5,25 +5,7 @@ body {
   padding: 0;
 }
 
-a{
-    color:blue;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-a:visited{
-    color:blue;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
 
-a:hover {
-    color: #F5A862;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
 
 /*****HEADER*****/
 header{
@@ -66,6 +48,7 @@ nav{
     border-top: 1px solid orange;   /*上部の線の色を指定*/
     border-bottom: 1px solid orange;    /*下部の線の色を指定*/
     margin-bottom: 5px; 
+  
     overflow: hidden;   /*おまじない*/
 }
 nav ul{
@@ -77,21 +60,43 @@ nav li{
 nav li:last-child{
     border-right: 1px solid orange; /*li要素の最後の物は右側に線を描く*/
 }
-nav a{
-    display: block; /*1つのli全体にリンクを有効にする*/
-    text-decoration: none;  /*ブラウザ標準のリンク装飾をオフに*/
-    color:#313131;  /*文字色の変更*/
-    font-size: 110%;    /*フォントサイズの指定*/
-    letter-spacing: 5px;    /*文字と文字の間隔をあける*/
-    font-weight: 400;   /*文字の太さを調整*/
-    line-height: 45px;  /*行間の指定（ナビボタンの高さ指定）*/
+CSS
+nav{
+border-bottom: 1px solid #ccc;
 }
-nav a:hover{
-    background-color: orange;   /*背景色の指定*/
-    color: #fff;    /*文字色の変更*/
-    transition: 0.5s;   /*ホバー時の動きをなめらかにする*/
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+text-align: center;
 }
-
+nav ul li{
+display: table-cell;
+min-width: 50px;
+border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+border-left: 1px solid #ccc;
+}
+nav ul li a{
+display: block;
+width: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li a:hover{
+background-color:#F8E750;
+border-bottom: 5px solid #F8E750;
+}
+nav ul li.current{
+font-weight: bold;
+}
+nav ul li.current a{
+border-bottom: 5px solid #00B0F0;
+color: #00B0F0;
+}
 /****FOOTER****/
 footer{
     font-size: 80%; /*フォントサイズの指定*/
