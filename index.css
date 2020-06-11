@@ -16,14 +16,22 @@ header{
 /*****BRANDING*****/
 #branding{ 
     margin-left: 20%;/*左端から20%右側に動かす*/
-}
-  
+}  
 #branding p{
-    color: #008080;/*文字色の変更*/
-    font-size: 80%; /*フォントサイズの調整*/
-    /*padding-left: 3%; /*文字の左側に余白をあける*/
-    text-align: center;/*中央揃え*/
-    letter-spacing: 5px;                         /*文字と文字の間隔をあける*/ 
+    color: #008080;           /*文字色の変更*/
+    font-size: 80%;           /*フォントサイズの調整*/
+    text-align: center;       /*中央揃え*/
+    letter-spacing: 5px;      /*文字と文字の間隔をあける*/ 
+}
+
+h2{
+width: 300px;
+height: 40px;
+background-color: #008080;
+text-align: center;
+color: #000;
+font-size: 14px;
+border: 1px solid #22aa5b;
 }
 
 /*****NAV*****/
