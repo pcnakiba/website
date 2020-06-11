@@ -13,17 +13,6 @@ header{
     overflow: hidden;
 }
 
-h1 {
-  font-size:120%; /*フォントサイズの調整*/
-  color:#313131; /*文字色の変更*/
-  margin: .5em 0;
-  padding-top: 10px; /*文字上部に余白*/
-  padding-bottom: 10px; /*文字下部に余白*/
-  padding-left: 20px; /*文字左側に余白*/
-  padding-right: 20px; /*文字右側に余白*/
-  font-weight:400; /*文字の太さの変更*/  
-}
-
 /*****BRANDING*****/
 #branding{ 
     margin-left: 20%;/*左端から20%右側に動かす*/
@@ -31,7 +20,6 @@ h1 {
 );          /* 画像のURLを指定       */
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */   
     background-size: cover;
-    margin-bottom: 20px;
 }
   
 #branding p{
