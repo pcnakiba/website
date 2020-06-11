@@ -27,7 +27,8 @@ h1 {
 /*****BRANDING*****/
 #branding{ 
     margin-left: 20%;/*左端から20%右側に動かす*/
-    background-image:url(IchigoJam.png);          /* 画像のURLを指定       */
+    background-image:url(https://pcnakiba.github.io/website/Ichigojam.png
+);          /* 画像のURLを指定       */
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */          
     margin-bottom: 20px;
     width:auto;                                   /* 横幅のサイズを指定    */
