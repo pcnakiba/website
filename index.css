@@ -31,8 +31,7 @@ h1 {
 );          /* 画像のURLを指定       */
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */          
     margin-bottom: 20px;
-    width:auto;                                   /* 横幅のサイズを指定    */
-    height:400pX;                                 /* 縦幅のサイズを指定*/
+    width:30%;                                   /* 横幅のサイズを指定    */
 }
   
 #branding p{
