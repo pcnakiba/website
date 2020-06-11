@@ -5,8 +5,6 @@ body {
   padding: 0;
 }
 
-
-
 /*****HEADER*****/
 header{
     display: block;
@@ -43,6 +41,7 @@ h1 {
     padding-left: 3%; /*文字の左側に余白をあける*/
 }
 
+/*****NAV*****/
 nav{
 border-bottom: 1px solid #ccc;
 }
@@ -79,6 +78,8 @@ nav ul li.current a{
 border-bottom: 5px solid #00B0F0;
 color: #00B0F0;
 }
+
+
 /****FOOTER****/
 footer{
     font-size: 80%; /*フォントサイズの指定*/
