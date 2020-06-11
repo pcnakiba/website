@@ -25,20 +25,20 @@ h1 {
 }
 
 /*****BRANDING*****/
-#branding{
-    display: block;
-    width: 60%;/*横幅指定*/
+#branding{ 
     margin-left: 20%;/*左端から20%右側に動かす*/
-    overflow: hidden;/*おまじない*/
-    background-color: #313131;/*背景色の指定*/
+    background-image:url(IchigoJam.jpg);          /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */          
     margin-bottom: 20px;
-    letter-spacing: 10px; /*文字と文字の間隔をあける*/
-    line-height: 300px;   /*行間の指定（ブランディングの高さを決める）*/
+    width:auto;                                   /* 横幅のサイズを指定    */
+    height:400pX;                                 /* 縦幅のサイズを指定*/
 }
+  
 #branding p{
     color: #fff;/*文字色の変更*/
     font-size: 120%; /*フォントサイズの調整*/
     padding-left: 3%; /*文字の左側に余白をあける*/
+    letter-spacing: 10px;                         /*文字と文字の間隔をあける*/ 
 }
 
 /*****NAV*****/
