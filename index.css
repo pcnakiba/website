@@ -89,6 +89,69 @@ border-bottom: 5px solid #00B0F0;
 color: #00B0F0;
 }
 
+  /*メニュー項目のブロック全体*/
+.bio h3{
+	margin:0 0 7px 0;	/*h3タグの領域の外側の余白。上、右、下、左の順で指定*/
+	padding:5px 0 5px 5px;	/*h3タグの領域の内側の余白。指定順はmarginと同様*/
+	background:#ecece9;	/*h3タグの領域を塗りつぶす背景色*/
+	border-left:7px solid #fcec0b;	/*左端の黄色の柱は線の設定で描く。線の太さ、線の形状、色の順で指定*/
+	font-size:18px;	/*文字の大きさ*/
+	line-height:1.3em;	/*行間*/
+}
+.bio ul{
+	margin:0;	/*ulタグの領域の外側の余白を0にリセット*/
+	padding:0;	/*ulタグの領域の内側の余白を0にリセット*/
+	list-style:none;	/*メニュー項目先頭の黒丸を消去*/
+}
+
+.bio li a{
+    background:url(icon_ichigo_16.png) no-repeat 0 6px;	/*苺アイコンは背景として敷く。背景画像は繰り返さず、横0、上6px空けて配置する*/
+	padding:3px 0 3px 18px;	/*苺アイコンとメニュー項目の文字がカブらないように、左側を18px空ける*/
+	border-bottom:1px solid #f7b1a6;	/*メニュー項目の上下の区切り線。下にだけ引く*/
+	font-size:14px;
+	line-height:1.3em;
+	display:block;	/*文字だけでなく、1段丸ごとリンクにする*/
+	text-decoration:none;	/*リンクの下線を消す*/
+	color:#333333;	/*リンクの文字色を指定*/
+
+}
+/*メニュー項目のリンクにマウスオーバーしたときの設定*/
+.bio li a:hover{
+    color:#666666;	/*リンクの文字色をグレー切り替え*/
+	background:url(icon_ichigo_16.png) no-repeat 0 6px #ffdcd7;	
+}
+
+.ichigojamlink h3{
+	margin:0 0 7px 0;	/*h3タグの領域の外側の余白。上、右、下、左の順で指定*/
+	padding:5px 0 5px 5px;	/*h3タグの領域の内側の余白。指定順はmarginと同様*/
+	background:#ecece9;	/*h3タグの領域を塗りつぶす背景色*/
+	border-left:7px solid #fc3b0b;	/*左端の赤の柱は線の設定で描く。線の太さ、線の形状、色の順で指定*/
+	font-size:18px;	/*文字の大きさ*/
+	line-height:1.3em;	/*行間*/
+}
+.ichigojamlink ul{
+	margin:0;	/*ulタグの領域の外側の余白を0にリセット*/
+	padding:0;	/*ulタグの領域の内側の余白を0にリセット*/
+	list-style:none;	/*メニュー項目先頭の黒丸を消去*/
+}
+
+.ichigojamlink a{
+    background:url(icon_ichigo_16.png) no-repeat 0 6px;	/*苺アイコンは背景として敷く。背景画像は繰り返さず、横0、上6px空けて配置する*/
+	padding:3px 0 3px 18px;	/*苺アイコンとメニュー項目の文字がカブらないように、左側を18px空ける*/
+	border-bottom:1px solid #f7b1a6;	/*メニュー項目の上下の区切り線。下にだけ引く*/
+	font-size:14px;
+	line-height:1.3em;
+	display:block;	/*文字だけでなく、1段丸ごとリンクにする*/
+	text-decoration:none;	/*リンクの下線を消す*/
+	color:#333333;	/*リンクの文字色を指定*/
+
+}
+/*メニュー項目のリンクにマウスオーバーしたときの設定*/
+.ichigojamlink li a:hover{
+    color:#666666;	/*リンクの文字色をグレー切り替え*/
+	background:url(icon_ichigo_16.png) no-repeat 0 6px #ffdcd7;	
+}
+
 
 /****FOOTER****/
 footer{
