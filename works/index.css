@@ -20,7 +20,7 @@ body {
   }
 
 .setumei{
-    background: #ffffff;
+    background-color:rgba(255,255,255,0.8);
     width: 80%;
     text-align: center;       /*中央揃え*/
     padding: 10px;
