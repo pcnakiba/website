@@ -97,6 +97,8 @@ color: #00B0F0;
 	border-left:7px solid #fcec0b;	/*左端の黄色の柱は線の設定で描く。線の太さ、線の形状、色の順で指定*/
 	font-size:18px;	/*文字の大きさ*/
 	line-height:1.3em;	/*行間*/
+	display: block;
+    	width:30%
 }
 .bio ul{
 	margin:0;	/*ulタグの領域の外側の余白を0にリセット*/
@@ -113,6 +115,7 @@ color: #00B0F0;
 	display:block;	/*文字だけでなく、1段丸ごとリンクにする*/
 	text-decoration:none;	/*リンクの下線を消す*/
 	color:#333333;	/*リンクの文字色を指定*/
+	width:30%
 
 }
 /*メニュー項目のリンクにマウスオーバーしたときの設定*/
@@ -144,6 +147,7 @@ color: #00B0F0;
 	display:block;	/*文字だけでなく、1段丸ごとリンクにする*/
 	text-decoration:none;	/*リンクの下線を消す*/
 	color:#333333;	/*リンクの文字色を指定*/
+	width:30%
 
 }
 /*メニュー項目のリンクにマウスオーバーしたときの設定*/
