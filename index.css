@@ -87,7 +87,7 @@ h2{
     
     nav ul li{
     display: table-cell;/*横並びにしてる*/
-    min-width: 50px;
+    min-width: 80px;
     border-right: 1px solid #ccc;
     }
     
