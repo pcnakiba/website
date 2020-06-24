@@ -19,6 +19,7 @@ header{
     height:auto;
     background-image:url("bg_amabie_p.jpg"),url("bg_gayoushi.jpg");
     background-size:auto 128px,contain;
+    background-repeat: repeat-x;
 }
 
 
