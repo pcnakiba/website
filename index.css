@@ -18,8 +18,8 @@ body {
     background-color: #fff8f8;
     height:auto;
     background-image:url("bg_amabie_p.jpg"),url("bg_gayoushi.jpg");
-    background-size:auto 135px,contain;   
-    background-repeat: repeat-x;
+    background-size:auto 135px;   
+    background-repeat: repeat-x,repeat;
 }
 
 
@@ -129,7 +129,7 @@ h1.menu{
 
 .map{
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
     text-align: center; 
 }
 
