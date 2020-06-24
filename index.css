@@ -18,7 +18,7 @@ body {
     background-color: #fff8f8;
     height:auto;
     background-image:url("bg_amabie_p.jpg"),url("bg_gayoushi.jpg");
-    background-size:auto 145px,auto 512px;   
+    background-size:auto 155px,auto 512px;   
     background-repeat: repeat-x,repeat;
 }
 
@@ -27,7 +27,7 @@ body {
     display: block;
     width:100%;
     height:auto
-    text-align:center;
+    position:center;
     margin: 0 auto;   
 }
 
