@@ -22,6 +22,10 @@ body{
     background-repeat: repeat-x,repeat;
 }
 
+body > #container {
+    height: auto;
+}
+
 h1{
     display: block;
     margin: 0 auto;
