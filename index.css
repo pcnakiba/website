@@ -18,76 +18,63 @@ body {
     background-color: #fff8f8;
     height:auto;
     background-image:url("bg_amabie_p.jpg"),url("bg_gayoushi.jpg");
-    background-size:auto 135px,contain;
-    background-repeat: repeat-x;
+　　background-repeat: repeat-x,repeat;
+    background-size:auto 135px,contain;   
 }
 
 
+.menu{
+    display: block;
+    width:100%;
+    height:auto
+    text-align:center;
+    margin: 0 auto;   
+}
 
-
-/*****BRANDING*****/ 
-
-#branding p{
-    color: #008080;           /*文字色の変更*/
-    font-size:120%;           /*フォントサイズの調整*/
-    text-align: center;       /*中央揃え*/
-    letter-spacing: 5px;      /*文字と文字の間隔をあける*/ 
+h1.menu{
+    display: block;
+    margin: 0 auto;
+    width:"100%"; 
+    text-align:center;
 }
 
 .contents_works {
+    display: block;
 	padding-top: 40px;
 	padding-bottom: 50px;
 	margin: 0 auto;
 	color: #666;
-	width: 960px;
+	width: 100%;
 }
 
 .worksTable {
-	margin: 0 auto;
-	width: 900px;
-	font-size:15px;
-}
-
-.aboutTable{
     margin: 0 auto;
-    width: 800px;
-    background-color:rgba(255,255,255,0.5);
+    font-size:15px;
+    text-align:center;  
 }
 
-.map{
-    margin: 0 auto;
-    width: 100%;
-    text-align: center; 
-}
 
-h2{
-  width: 300px;
-  height: 30px;
-  background-color: #008080;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  padding-top:15px;
-  border-radius:8px;
-  border: 1px solid #fff;
-}
   /*****NAV*****/
   nav{
     background:#F7F7F7;
     border-bottom: 1px solid #ccc; /*下ボーダー・細め1本線・ライトグレー*/
+    width: 100%;
+    text-align:center;
+    overflow: visible;
+    white-space:nowrap;
     }
     
     nav ul{
     display: table;
     margin: 0 auto;
     padding: 0;
-    width: 80%;
-    text-align: center;/*中央揃え*/
+    width: 100%;
+    text-align: center;
     }
     
     nav ul li{
     display: table-cell;/*横並びにしてる*/
-    min-width: 80px;
+    min-width: 100%;
     border-right: 1px solid #ccc;
     }
     
@@ -101,6 +88,7 @@ h2{
     padding: 10px 0;
     text-decoration: none;
     color: #aaa;
+    font-size:0.8rem;
     }
     
     nav ul li a:hover{
@@ -116,7 +104,51 @@ h2{
     border-bottom: 5px solid #00B0F0;
     color: #00B0F0;
     }
-  
+
+
+.aboutTable{
+    margin: 0 auto;
+    width: 90%;
+    background-color:rgba(255,255,255,0.5);
+}    
+
+.info{
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+   
+}
+
+.info h3{
+    padding: .25em 0 .5em .75em;
+    background-color: #f6f6f6;
+    border-left: 6px solid #008080;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+}
+
+.map{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center; 
+}
+
+h2{
+  width: 30%;
+  height: 30px;
+  background-color: #008080;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  padding-top:15px;
+  border-radius:8px;
+  border: 1px solid #fff;
+}
+
+h3{
+    color:#008080;
+}
+
 
 /*メニュー項目のブロック全体*/
 .ichigojamlink h3{
@@ -137,12 +169,13 @@ h2{
     background:url(icon_ichigo_16.png) no-repeat 0 6px;	/*苺アイコンは背景として敷く。背景画像は繰り返さず、横0、上6px空けて配置する*/
 	padding:3px 0 3px 18px;	/*苺アイコンとメニュー項目の文字がカブらないように、左側を18px空ける*/
 	border-bottom:1px solid #f7b1a6;	/*メニュー項目の上下の区切り線。下にだけ引く*/
-	font-size:14px;
+    font-size:14px;
+    text-align: left;
 	line-height:1.3em;
 	display:block;	/*文字だけでなく、1段丸ごとリンクにする*/
 	text-decoration:none;	/*リンクの下線を消す*/
     color:#333333;	/*リンクの文字色を指定*/
-    width:30%
+    width:50%
 
 }
 /*メニュー項目のリンクにマウスオーバーしたときの設定*/
