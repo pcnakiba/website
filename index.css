@@ -18,7 +18,7 @@ body{
     background-color: #fff8f8;
     height:auto;
     background-image:url("bg_amabie_p.jpg"),url("bg_gayoushi.jpg");
-    background-size:220px 220px,auto 256px;   
+    background-size:150px 150px,auto 256px;   
     background-repeat: repeat-x,repeat;
 }
 
