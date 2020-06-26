@@ -117,7 +117,7 @@ body > #container {
 
 .map{
     margin: 0 auto;
-    width:70vmin;
+    width: 70vmax;
     text-align: center; 
 }
 
