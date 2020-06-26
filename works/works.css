@@ -68,7 +68,7 @@ nav{
   display: table;
   margin: 0 auto;
   padding: 0;
-  width: 80%;
+  width: 100%;
   text-align: center;/*中央揃え*/
   }
   
@@ -92,7 +92,6 @@ nav{
   
   nav ul li a:hover{
   background-color:#F8E750;
-  border-bottom: 5px solid #F8E750;
   }
   
   nav ul li.current{
@@ -173,13 +172,21 @@ nav{
 	padding-bottom: 50px;
 	margin: 0 auto;
 	color: #666;
-	width: 960px;
+	width: 90vw;
 }
 
 .worksTable {
 	margin: 0 auto;
-	width: 900px;
+	width: 85vw;
 	font-size:15px;
+}
+
+.idxPage td {
+  vertical-align: top;
+}
+.idxPage img {
+  width: 23vw;
+  height: 23vw;
 }
 
 .mainPhoto {
@@ -211,6 +218,7 @@ span.flv3 {
 	color: #666;
   padding-top:16px;
 }
+
 
 .nameBox{
 	margin-bottom: 20px;

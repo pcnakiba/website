@@ -81,7 +81,6 @@ body > #container {
     
     nav ul li a:hover{
     background-color:#F8E750;
-    border-bottom: 5px solid #F8E750;
     }
     
     nav ul li.current{
@@ -107,18 +106,36 @@ body > #container {
    
 }
 
-.info h3{
+.info h3 {
     padding: .25em 0 .5em .75em;
     background-color: #f6f6f6;
     border-left: 6px solid #008080;
     border-bottom: 1px solid #ccc;
-    width: 50%;
+    width: 23em;
+    max-width: 90%;
 }
 
-.map{
+.map {
+    text-align: center;
+}
+.map > iframe {
     margin: 0 auto;
-    width: 70vmax;
-    text-align: center; 
+    width: 70vw;
+    height: 40vw;
+}
+
+h3 br {
+    display: none;
+}
+
+@media (max-aspect-ratio: 5/10) {
+    .map > iframe {
+        width: 100%;
+        height: 30vh;
+    }
+    h3 br {
+        display: block;
+    }
 }
 
 h2{
