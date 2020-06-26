@@ -130,7 +130,7 @@ h3 br {
 
 @media (max-aspect-ratio: 5/10) {
     h1 {
-        width: 100%;
+        width: 100vw;
     }
     .map > iframe {
         width: 100%;
