@@ -159,7 +159,7 @@ nav{
 
 /****お問合せページ用****/
   .contact{
-    position:relative; 
+    position:relative;
     top:20px;
     width: 760px;
     margin: 0 auto;
@@ -225,7 +225,7 @@ span.flv3 {
 
 
 .nameBox{
-	margin: auto auto; 
+	position:left; 
 	margin-bottom: 20px;
 	border: 1px solid #B079FF;
 	border-radius: 5px; 
@@ -233,7 +233,7 @@ span.flv3 {
     -moz-border-radius: 5px;   /* Firefox用 */  
     background-color:rgba(255,255,255,0.8);
 	padding: 10px 20px;
-	width: 40vx;
+	width: 40%;
 }
 
 
