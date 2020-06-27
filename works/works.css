@@ -285,6 +285,9 @@ table.type06 .even {
     .arrow {
 	width: 350px;
 	}
+    .mainPhoto {
+	float:none;
+    }
     .prf {
 	float:none;
     }
