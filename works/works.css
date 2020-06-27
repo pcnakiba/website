@@ -264,6 +264,9 @@ table.type06 td {
 table.type06 .even {
 	background: #efefef;
 }
+    .arrow {
+	width:750px; height:100px; 
+    }
 
 @media (max-aspect-ratio: 5/10) {
     .contents_works {
