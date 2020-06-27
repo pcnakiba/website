@@ -282,6 +282,9 @@ table.type06 .even {
     h3 br {
         display: block;
     }
+    .nameBox{
+	width: 100vw;
+    }
     .arrow {
 	width: 350px;
 	}
