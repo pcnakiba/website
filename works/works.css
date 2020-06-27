@@ -182,7 +182,7 @@ nav{
 }
 
 .idxPage {
-  position:relative; 
+  margin: auto auto; 
 }
 
 .idxPage td {
