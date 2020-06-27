@@ -181,6 +181,10 @@ nav{
 	font-size:15px;
 }
 
+.idxPage {
+  text-align: center;
+}
+
 .idxPage td {
   vertical-align: top;
 }
