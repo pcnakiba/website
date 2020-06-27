@@ -265,6 +265,23 @@ table.type06 .even {
 	background: #efefef;
 }
 
+@media (max-aspect-ratio: 5/10) {
+    .contents_works {
+	width: 85vw;
+    }
+    .worksTable img {
+        width: 100vw;
+    }
+    .map > iframe {
+        width: 100%;
+        height: 30vh;
+    }
+    h3 br {
+        display: block;
+    }
+}
+
+
   /****FOOTER****/
 
 footer{
