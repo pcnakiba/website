@@ -172,7 +172,7 @@ nav{
 	padding-bottom: 50px;
 	margin: 0 auto;
 	color: #666;
-	width: 90vw;
+	width: 350px;
 }
 
 .worksTable {
@@ -218,7 +218,7 @@ span.flv3 {
 .prf {
 	float:right;
 	width:490px;
-  height:350px;
+        height:350px;
 	color: #666;
   padding-top:16px;
 }
