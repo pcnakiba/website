@@ -283,16 +283,16 @@ table.type06 .even {
         display: block;
     }
     .nameBox{
-	width: 100vw;
+	width: 95vw;
     }
-    .arrow {
-	width: 350px;
-	}
     .mainPhoto {
 	float:none;
     }
     .prf {
 	float:none;
+    }
+    .arrow {
+	width: 350px;
     }
 }
 
