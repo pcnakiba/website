@@ -170,9 +170,9 @@ nav{
 .contents_works {
 	padding-top: 40px;
 	padding-bottom: 50px;
-	margin: 0 auto;
+	margin: auto auto;
 	color: #666;
-	width: 350px;
+	width: 750px;
 }
 
 .worksTable {
