@@ -279,6 +279,9 @@ table.type06 .even {
     h3 br {
         display: block;
     }
+    .arrow {
+	width: 100vw;
+	}
 }
 
 
