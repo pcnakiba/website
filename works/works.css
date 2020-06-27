@@ -225,6 +225,7 @@ span.flv3 {
 
 
 .nameBox{
+	margin: auto auto; 
 	margin-bottom: 20px;
 	border: 1px solid #B079FF;
 	border-radius: 5px; 
@@ -232,7 +233,7 @@ span.flv3 {
     -moz-border-radius: 5px;   /* Firefox用 */  
     background-color:rgba(255,255,255,0.8);
 	padding: 10px 20px;
-	width: 800px;
+	width: 90vx;
 }
 
 
